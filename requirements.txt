@@ -1,0 +1,5 @@
+docx2pdf
+numpy
+opencv-python
+pdf2docx
+PyMuPDF

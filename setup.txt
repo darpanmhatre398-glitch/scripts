@@ -1,0 +1,9 @@
+Set-ExecutionPolicy -ExecutionPolicy RemoteSigned -Scope CurrentUser
+
+
+activate Environment
+
+.\env\Scripts\Activa
+
+#INSTALLING the libraries
+pip install --no-index --find-links=my_offline_packages -r requirements.txt
